@@ -22,4 +22,23 @@ sleep 1
 sudo cp platform-tools/adb /usr/bin/adb
 sleep 1
 sudo cp platform-tools/fastboot /usr/bin/fastboot
-
+sleep 1
+cd
+sleep 1
+mkdir android
+sleep 1
+cd android
+sleep 1
+mkdir lineage
+sleep 1
+git clone https://github.com/InSaNiTy351/scripts.git
+sleep 1
+ssh-keygen -t rsa -b 4096 -C ethan.johnson351@gmail.com
+sleep 1
+eval "$(ssh-agent -s)"
+sleep 1
+ssh-add ~/.ssh/id_rsa
+sleep 1
+cat ~/.ssh/id_rsa.pub
+sleep 1
+echo 'put that in github so your shit works
